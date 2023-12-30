@@ -1,0 +1,103 @@
+.contain1{
+    width:40%;
+    flex-shrink: 0;
+    background-image: url("photo.jpg");
+    background-size: cover;
+}
+
+.contain2{
+    background-color:#36454F;
+    width:60%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.text{
+    color:white;
+    font-size: 4rem;
+
+}
+
+.cls1{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 20%;
+    margin-top:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color: black;
+    opacity: 80%;
+    display: block;
+    font-size: 150%;
+}
+
+
+
+input{
+    background-color: #36454F;
+    border: 0px;
+    border-bottom: 1px solid rgb(0,0,0,.4);
+    color: white;
+    opacity: 80%;
+    font-size: 150%;
+    margin: 4%;
+}
+
+input :focus{
+    outline: 2px white;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap:18em;
+    margin : 60px 0;
+}
+
+.form-header{
+    font-size: 300%;
+    margin-left: -2px;
+}
+
+button{
+    font-size: 150%;
+    background-color: #36454F;
+    border-radius: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+p{
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.login:hover{
+    border-bottom: 1px solid rgb(0,0,0,.4);
+    cursor: pointer;
+    display: inline;
+}
+
+span{
+    display: block;
+    overflow: hidden;
+    color:red;
+}
+
+
